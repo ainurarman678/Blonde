@@ -37,6 +37,7 @@
             icon2.classList.add("icon-moon");
             document.documentElement.classList.remove('dark')
             localStorage.theme = 'light'
+            s.setAttribute('theme', github-light);
         } else {
             icon.classList.remove("icon-moon");
             icon.classList.add("icon-sun");
@@ -44,6 +45,7 @@
             icon2.classList.add("icon-sun");
             document.documentElement.classList.add('dark')
             localStorage.theme = 'dark'
+            s.setAttribute('theme', github-dark);
         }
     }
     </script>
